@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pesosdolares"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.pesosdolares.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pesosdolares.ConvertirPesos"
+            android:label="@string/title_activity_convertir_pesos"
+            android:parentActivityName="com.example.pesosdolares.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pesosdolares.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.pesosdolares.ConvertirDolares"
+            android:label="@string/title_activity_convertir_dolares"
+            android:parentActivityName="com.example.pesosdolares.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pesosdolares.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.pesosdolares.CalcularPesos"
+            android:label="@string/title_activity_calcular_pesos"
+            android:parentActivityName="com.example.pesosdolares.ConvertirPesos" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pesosdolares.ConvertirPesos" />
+        </activity>
+        <activity
+            android:name="com.example.pesosdolares.CalcularDolares"
+            android:label="@string/title_activity_calcular_dolares"
+            android:parentActivityName="com.example.pesosdolares.ConvertirDolares" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pesosdolares.ConvertirDolares" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pesos Dolares</string>
+    <string name="action_settings">Settings</string>
+    <string name="image">convertidor de moneda</string>
+    <string name="button_pesos">Convertir a Pesos</string>
+    <string name="button_dolares">Convertir a Dolares</string>
+    <string name="title_activity_convertir_pesos">Convertir Dolares a Pesos</string>
+    <string name="title_activity_convertir_dolares">Convertir Pesos a Dolares</string>
+    <string name="pesos_text">Introducir Dolares</string>
+    <string name="pesos_edit">0</string>
+    <string name="pesos_button">Calcular Pesos</string>
+    <string name="dolares_text">Introducir Pesos</string>
+    <string name="dolares_edit">0</string>
+    <string name="dolares_button">Calcular Dolares</string>
+    <string name="title_activity_calcular_pesos">Pesos</string>
+    <string name="title_activity_calcular_dolares">Dolares</string>
+
+</resources>
